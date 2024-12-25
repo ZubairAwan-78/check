@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--Header 1 Start-->
+
+    <nav class="header-1">
+        <h1>LOGO</h1>
+        <div class="search-container">
+        <form action="search">
+            <input type="search" placeholder="search here..">
+            <img class="searchicon" src="./Icons/Searchicon.png" alt="" width="20px">
+        </form>
+        </div>
+        <div class="iconsh1">
+            <img src="./Icons/heart.png" alt="" width="20px">
+            <img src="./Icons/cart.png" alt="" width="20px">
+            <img src="./Icons/user.png" alt="" width="20px">
+        </div>
+    </nav>
+
+    <!--Header 1 End-->
+
+    <!--Header 2 Start-->
+
+    <nav>
+        <div class="logoh2">
+            <h1></h1>
+        </div>
+        <ul class="ulh2" id="menulist">
+            <li><a href="">HOME</a></li>
+            <li><a href="">PRODUCTS</a></li>
+            <li><a href="">SERVICES</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">CONTACT US</a></li>
+        </ul>
+        <div class="menuicon">
+            <img class="header1icon" src="./Icons/menu.png" alt="Menu png" width="25px" onclick="toggleMenu()">
+        </div>
+    </nav>
+
+    <!--Header 1 End-->
+
+    <!--Home Page Start-->
+    <div class="home-container">
+    <div class="homeh1">
+        <h1 class="home">GET ACCESS OVER 2M+</h1>
+        <h1 class="home2d">DIGITAL PRODUCTS</h1>
+        <p class="homep">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempor libero id odio rhoncus bibendum. </p>
+        <button class="shopnow"> <a href="">Shop Now</a></button>
+        <button class="shopnow2"> <a href="">Our Services</a></button>
+    </div>
+    <div class="homebox2">
+        <img class="homeimg" src="./Icons/homeimg.jpg" alt="Bundle Image">
+    </div>
+    </div>
+    <!--Home Page End-->
+
+    <!--Home Product Area 1-->
+    <div class="products-containers">
+        <h1 class="for-product">Our Products</h1>
+        <div class="main-products">
+            <div class="pr-1">
+                <img src="./Products/1.jpg" alt="First Product Image">
+                <h1>Elementor Pro Lifetime</h1>
+                <p>Get Elementor Pro for Lifetime + 1000 Wordpress theme and Plugins.</p>
+                <div class="for-b-p">
+                    <h3>$25</h3>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+            <div class="pr-1">
+                <img src="./Products/2.jpg" alt="Second Product Image">
+                <h1>AI Reels Bundle Pack</h1>
+                <p>32000+ Ai Reels Bundle can be used for Instagram, Tiktok, and Youtube.</p>
+                <div class="for-b-p">
+                    <h3>$10</h3>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+            <div class="pr-1">
+                <img src="./Products/3.jpg" alt="Third Product Image">
+                <h1>Shopify Themes Bundle</h1>
+                <p>1000+ Shopify Themes Bundle for Unlimited Website and Lifetime Access.</p>
+                <div class="for-b-p">
+                    <h3>$30</h3>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+            
+        </div>
+
+        
+
+    </div>
+    <!--Home Product Area 1 End-->
+    <div class="main-products">
+        <div class="pr-1">
+            <img src="./Products/4.jpg" alt="">
+            <h1>Canva Pro Lifetime</h1>
+            <p>Get Canva Pro for Lifetime + 2000 Design Templates and Font Pack.</p>
+            <div class="for-b-p">
+                <h3>$5</h3>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="pr-1">
+            <img src="./Products/5.jpg" alt="">
+            <h1>E-Book Bundle</h1>
+            <p>800+ E-Book Bundle in 30+ Categories in very Cheap Price.</p>
+            <div class="for-b-p">
+                <h3>$15</h3>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="pr-1">
+            <img src="./Products/6.jpg" alt="">
+            <h1>Ultimate Creater Bundle</h1>
+            <p>Bundle Include Adobe Photoshop, After Effect, Premier Pro and Illustrator.</p>
+            <div class="for-b-p">
+                <h3>$35</h3>
+                <button>Buy Now</button>
+            </div>
+        </div>
+     <!--Home Product Area 2-->
+
+</body>
+
+
+
+<script>
+    let menulist = document.getElementById("menulist")
+    menulist.style.maxHeight = "0px";
+
+    function toggleMenu(){
+        if (menulist.style.maxHeight == "0px") {
+            menulist.style.maxHeight = "400px"
+        } else {
+            menulist.style.maxHeight = "0px"
+        }
+    }
+
+</script>
+<script src="https://kit.fontawesome.com/c8280c9a53.js" crossorigin="anonymous"></script>
+</html>
+
+
